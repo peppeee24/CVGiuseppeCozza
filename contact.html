@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Contatti - Il tuo Nome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contatta Il tuo Nome per collaborazioni o informazioni sui progetti.">
+    <meta name="keywords" content="Contatti, Il tuo Nome, Email, Telefono, Social">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- AOS Library per animazioni -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- Font Awesome per le icone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+    emailjs.init({
+        publicKey: "V8ioRH_vS_o2MloHn",
+    });
+    })();
+    </script>
+</head>
+<body>
+    <!-- Schermata di Caricamento -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a class="logo" href="index.html">Giuseppe Cozza</a>
+                <ul class="nav-links">
+                    <li><a href="index.html#chi-sono">Chi Sono</a></li>
+                    <li><a href="index.html#formazione">Formazione</a></li>
+                    <li><a href="index.html#progetti">Progetti</a></li>
+                    <li><a href="contact.html">Contatti</a></li>
+                </ul>
+                <div class="burger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sezione Contatti -->
+    <section class="contact-page">
+        <div class="container">
+            <h1 data-aos="fade-up">Contatti</h1>
+            <div class="contact-details" data-aos="fade-up" data-aos-delay="100">
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>Telefono: <strong>+39 391 469 7402</strong></p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>Email: <strong>giusecozza24@gmail.com</strong></p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Da: <strong>Zola Predosa (BO), Italia</strong></p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-birthday-cake"></i>
+                    <p>Età: <strong>21 anni</strong></p>
+                </div>
+                <!-- Aggiungi altre informazioni se necessario -->
+            </div>
+            <div class="contact-details social-links" data-aos="fade-up" data-aos-delay="200">
+                <a href="https://www.instagram.com/cozzaa_03/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/giuseppe-cozza-200613213/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/peppeee24" target="_blank"><i class="fab fa-github"></i></a>
+                <!-- Aggiungi altri social se necessario -->
+            </div>
+            <!-- Modulo di Contatto -->
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+                <h2>Invia un Messaggio</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="nome" name="nome" required autocomplete="off" placeholder=" ">
+                        <label for="nome">Nome</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required autocomplete="off" placeholder=" ">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="messaggio" name="messaggio" rows="5" required placeholder=" "></textarea>
+                        <label for="messaggio">Messaggio</label>
+                    </div>
+                    <button type="submit" class="btn">Invia Messaggio</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popup Modal -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <p id="popup-message"></p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Giuseppe Cozza. Tutti i diritti riservati &copy;</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/cozzaa_03/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/giuseppe-cozza-200613213/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/peppeee24" target="_blank"><i class="fab fa-github"></i></a>
+                <!-- Aggiungi altri social se necessario -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <!-- AOS Library per animazioni -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Script per i Dati dei Progetti -->
+    <script src="js/projects.js"></script>
+    <!-- Script Personalizzato -->
+    <script src="js/scripts.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

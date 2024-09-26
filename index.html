@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Giuseppe Cozza - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curriculum vitae di Giuseppe Cozza, appassionato di videogiochi e sviluppatore di progetti innovativi.">
+    <meta name="keywords" content="Curriculum, Giuseppe Cozza, Videogiochi, Progetti, Formazione">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!-- AOS Library per animazioni -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- Font Awesome per le icone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Schermata di Caricamento -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a class="logo" href="index.html">Giuseppe Cozza</a>
+                <ul class="nav-links">
+                    <li><a href="#chi-sono">Chi Sono</a></li>
+                    <li><a href="#formazione">Formazione</a></li>
+                    <li><a href="#progetti">Progetti</a></li>
+                    <li><a href="contact.html">Contatti</a></li>
+                </ul>
+                <div class="burger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sezione Hero -->
+    <section class="hero" id="home">
+        <div class="overlay"></div>
+        <div class="hero-content" data-aos="fade-up">
+            <img src="assets/images/profilo.jpg" alt="Giuseppe Cozza" class="hero-image">
+            <h1>Benvenuto nel mio Portfolio</h1>
+            <p>Appassionato di videogiochi e sviluppatore di software.</p>
+            <a href="assets/documents/curriculum.pdf" target="_blank" class="btn" download>Download CV</a>
+        </div>
+    </section>
+
+    <!-- Sezione Chi Sono -->
+    <section id="chi-sono" class="about">
+        <div class="container" data-aos="fade-right">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Chi Sono</h2>
+                    <p>Mi chiamo <strong>Giuseppe Cozza</strong> e sono un appassionato di videogiochi con una forte inclinazione per lo sviluppo software. La mia passione mi ha portato a creare progetti innovativi che combinano tecnologia e intrattenimento.</p>
+                    <p>Ho esperienza nello sviluppo di applicazioni per mobile e nella progettazione di videogiochi, con competenze in diverse tecnologie come Unity3D.</p>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/profilo.jpg" alt="Giuseppe Cozza">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Formazione -->
+    <section id="formazione" class="education">
+        <div class="container">
+            <h2 data-aos="fade-up">Formazione</h2>
+            <div class="timeline">
+                <!-- Elemento Timeline -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-content">
+                        <h3>Diplomato in Informatica</h3>
+                        <span>IIS Belluzzi Fioravanti, 2022</span>
+                        <p>Diplomato in Informatica presso l'istituto tecnico Belluzzi Fioravanti di Bologna.</p>
+                    </div>
+                </div>
+                <!-- Elemento Timeline -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-content">
+                        <h3>Esperienza Erasmus - Spagna</h3>
+                        <span>Neki Zaragoza in Spagna, 2022</span>
+                        <p>Ho seguito l'attività come programmatore e tecnico di controllo dei vari dispositivi dell’azienda.</p>
+                    </div>
+                </div>
+                <!-- Elemento Timeline -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-content">
+                        <h3>Cambridge University Certificate - B1</h3>
+                        <span>Cambridge English FCE, 2022</span>
+                        <p>Conseguimento del certificato B1 in inglese da Cambridge English FCE.</p>
+                    </div>
+                </div>
+                <!-- Elemento Timeline -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-content">
+                        <h3>Consguimento Laurea in Informatica Per Il Management</h3>
+                        <span>Alma Mater Studiorum - Università di Bologna, 2025</span>
+                        <p>Da completare.</p>
+                    </div>
+                </div>
+                <!-- Aggiungi altri elementi se necessario -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Progetti -->
+    <section id="progetti" class="projects">
+        <div class="container">
+            <h2 data-aos="fade-up">I miei Progetti</h2>
+            <div class="project-grid">
+                <!-- Progetto 1 -->
+                <div class="project-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="assets/images/progetto1.jpg" alt="Progetto 1">
+                    <div class="project-info">
+                        <h3>Drug Dealer Unlimited</h3>
+                        <p>Descrizione breve del progetto.</p>
+                        <a href="project.html?id=progetto1" class="btn">Scopri di più</a>
+                    </div>
+                </div>
+                <!-- Progetto 2 -->
+                <div class="project-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="assets/images/progetto2.jpg" alt="Progetto 2">
+                    <div class="project-info">
+                        <h3>Poop Zag</h3>
+                        <p>Descrizione breve del progetto.</p>
+                        <a href="project.html?id=progetto2" class="btn">Scopri di più</a>
+                    </div>
+                </div>
+                <!-- Progetto 3 -->
+                <div class="project-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="assets/images/progetto3.jpg" alt="Progetto 3">
+                    <div class="project-info">
+                        <h3>Sito Dickens</h3>
+                        <p>Descrizione breve del progetto.</p>
+                        <a href="project.html?id=progetto3" class="btn">Scopri di più</a>
+                    </div>
+                </div>
+                <!-- Progetto 4 -->
+                <div class="project-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="assets/images/progetto4.png" alt="Progetto 4">
+                    <div class="project-info">
+                        <h3>Minecraft Developer</h3>
+                        <p>Descrizione breve del progetto.</p>
+                        <a href="project.html?id=progetto4" class="btn">Scopri di più</a>
+                    </div>
+                </div>
+                <!-- Aggiungi altri progetti se necessario -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Giuseppe Cozza. Tutti i diritti riservati &copy;</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/cozzaa_03/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/giuseppe-cozza-200613213/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/peppeee24" target="_blank"><i class="fab fa-github"></i></a>
+                <!-- Aggiungi altri social se necessario -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <!-- AOS Library per animazioni -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Script per i Dati dei Progetti -->
+    <script src="js/projects.js"></script>
+    <!-- Script Personalizzato -->
+    <script src="js/scripts.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

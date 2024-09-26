@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Progetto - Giuseppe Cozza</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dettaglio del progetto">
+    <meta name="keywords" content="Progetto, Portfolio, Il tuo Nome">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!-- AOS Library per animazioni -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- Font Awesome per le icone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body class="project-detail">
+    <!-- Schermata di Caricamento -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a class="logo" href="index.html">Giuseppe Cozza</a>
+                <ul class="nav-links">
+                    <li><a href="index.html#chi-sono">Chi Sono</a></li>
+                    <li><a href="index.html#formazione">Formazione</a></li>
+                    <li><a href="index.html#progetti">Progetti</a></li>
+                    <li><a href="contact.html">Contatti</a></li>
+                </ul>
+                <div class="burger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sezione Dettaglio Progetto -->
+    <section class="project-detail-section">
+        <div class="container">
+            <h1 data-aos="fade-up" id="project-title">Titolo del Progetto</h1>
+            <p class="project-meta" data-aos="fade-up" data-aos-delay="100">Data di pubblicazione: <span id="project-date">01 Gennaio 2023</span></p>
+            
+            <!-- Slider Immagini -->
+            <div class="image-slider" data-aos="fade-up" data-aos-delay="200">
+                <button class="prev-btn">&laquo;</button>
+                <div class="slider-images">
+                    <!-- Immagini saranno caricate dinamicamente -->
+                </div>
+                <button class="next-btn">&raquo;</button>
+            </div>
+
+            <!-- Descrizione del Progetto -->
+            <div class="project-content" data-aos="fade-up" data-aos-delay="300">
+                <h2>Descrizione del Progetto</h2>
+                <p id="project-description">Inserisci qui una descrizione dettagliata del progetto. Spiega gli obiettivi, le tecnologie utilizzate, le sfide affrontate e i risultati ottenuti.</p>
+            </div>
+
+            <!-- Video del Progetto -->
+            <div class="project-video" data-aos="fade-up" data-aos-delay="400">
+                <video width="640" height="360" controls>
+                    <source id="project-video-source" src="" type="video/mp4">
+                    Il tuo browser non supporta il tag video.
+                </video>
+            </div>
+
+            <!-- Pulsante per tornare alla home page nella sezione progetti -->
+            <div class="back-button" data-aos="fade-up" data-aos-delay="500">
+                <a href="index.html#progetti" class="btn">Torna ai Progetti</a>
+            </div>
+
+            <!-- Pulsante "Visita il Progetto" (commentato) -->
+            <!-- <div class="visit-button" data-aos="fade-up" data-aos-delay="600">
+                <a href="#" class="btn" target="_blank">Visita il Progetto</a>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Giuseppe Cozza. Tutti i diritti riservati &copy;</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/cozzaa_03/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/giuseppe-cozza-200613213/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/peppeee24" target="_blank"><i class="fab fa-github"></i></a>
+                <!-- Aggiungi altri social se necessario -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <!-- AOS Library per animazioni -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Script per i Dati dei Progetti -->
+    <script src="js/projects.js"></script>
+    <!-- Script Personalizzato -->
+    <script src="js/scripts.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
