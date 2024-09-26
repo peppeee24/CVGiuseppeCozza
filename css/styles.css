@@ -821,3 +821,14 @@ footer p {
         padding: 0 20px;
     }
 }
+
+/* Colore di selezione del testo */
+::selection {
+    background: #1db954;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background: #1db954;
+    color: #ffffff;
+}
