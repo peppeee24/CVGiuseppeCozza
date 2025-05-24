@@ -1,15 +1,15 @@
 // Dati dei Progetti
 const projects = {
     "progetto1": {
-        "title": "Drug Dealer Unlimited 2025 (In Development)",
-        "date": "20 Settembre 2024",
-        "description": "Entra nel Mondo di Drug Dealer Unlimited, un'avvincente simulazione strategica dove assumi il ruolo di un ambizioso imprenditore nel sottobosco criminale. Costruisci e gestisci il tuo impero clandestino, prendendo decisioni cruciali per espandere le tue operazioni e dominare il mercato nero. In Drug Dealer Unlimited, avrai la possibilità di acquistare le case dei tuoi sogni, con spazi personalizzabili e viste mozzafiato. Scegli tra diverse proprietà strategicamente posizionate, adattate alle tue esigenze operative. Personalizza gli interni per ottimizzare le tue attività clandestine e migliorare l'efficienza e il comfort del tuo impero. Inoltre, potrai acquistare e modificare una vasta gamma di auto, dalle eleganti vetture per incontri di alto livello alle potenti auto da fuga, con accessori e motori potenziati. Queste opzioni ti permetteranno di esprimere la tua individualità e strategia, rendendo unico il tuo impero criminale. Affronterai missioni diversificate che mettono alla prova le tue abilità strategiche. Le Car Delivery includono consegne puntuali con veicoli personali o van carichi di pacchi, richiedendo di mantenere i veicoli intatti e gestire consegne multiple o a tappe lontane. È essenziale completare queste missioni senza danni per garantire il successo delle tue operazioni. Inoltre, la Office Popularity ti sfida a incrementare la popolarità del tuo ufficio attraverso promozioni strategiche, gestione delle relazioni e espansione delle strutture, fondamentali per attrarre collaboratori migliori e aumentare la tua influenza nel mercato nero.",
+        "title": "Deal On Four Wheels",
+        "date": "Ottobre 2025",
+            "description": "Deal On Four Wheels è un innovativo gioco di simulazione gestionale in cui il giocatore assume il ruolo di proprietario di una concessionaria automobilistica. Il gameplay si basa sull’acquisto, la personalizzazione e la vendita di veicoli, adattando ogni auto alle esigenze specifiche di una clientela diversificata, che spazia da influencer a veri appassionati di motori. La sfida consiste nel bilanciare strategicamente le risorse, costruire relazioni con fornitori e clienti, e ampliare il proprio business attraverso investimenti mirati. L’esperienza di gioco si arricchisce inoltre con elementi di intrattenimento come il blackjack, offrendo momenti di relax e varietà. Deal On Four Wheels rappresenta un equilibrio tra simulazione realistica e gameplay coinvolgente, ideale per chi desidera esplorare il mondo dell’automotive con un approccio strategico e innovativo.",
         "images": [
             "assets/images/progetto1-img1.jpg",
             "assets/images/progetto1-img2.jpg",
             "assets/images/progetto1-img3.jpg"
         ],
-        "video": "assets/videos/comingsoon.mp4"
+        "video": "assets/videos/progetto1.mp4"
     },
     "progetto2": {
         "title": "Poop Zag",
