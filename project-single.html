@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dettaglio Progetto - Giuseppe Cozza</title>
+
+    <link rel="icon" href="assets/img/favicon.png" type="image/x-icon">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+         <div class="container">
+            <a class="navbar-brand" href="index.html">Giuseppe Cozza</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header-section">
+        <div class="container text-center" data-aos="fade-in">
+            <h1 class="display-4">[Titolo del Progetto]</h1>
+            <p class="lead lead-glow">[Sottotitolo breve che descrive il progetto]</p>
+        </div>
+    </header>
+
+    <main class="py-5">
+        <div class="container">
+            <div class="row g-5">
+
+                <div class="col-lg-8" data-aos="fade-right">
+                    
+                    <img src="assets/img/project-gallery-1.jpg" alt="Project Showcase" class="img-fluid rounded-4 shadow-lg mb-4">
+
+                    <h3 class="section-subtitle mt-5">// Project Overview</h3>
+                    <p>Inserisci qui una descrizione dettagliata. Spiega il problema (il "perché"), il tuo processo di pensiero e la soluzione (il "come"). Sii specifico sulle sfide tecniche che hai superato.</p>
+                    <p>Parla dell'architettura, delle scelte di design e del motivo per cui hai utilizzato determinate tecnologie. Questo è il posto per mostrare la tua competenza.</p>
+
+                    <h3 class="section-subtitle mt-5">// Gallery</h3>
+                    <div id="projectCarousel" class="carousel slide shadow-lg rounded-4 overflow-hidden mb-4" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/project-gallery-1.jpg" class="d-block w-100" alt="Screenshot 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/project-gallery-2.jpg" class="d-block w-100" alt="Screenshot 2">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <h3 class="section-subtitle mt-5">// Video Demo</h3>
+                    <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow-lg">
+                        <iframe src="https://www.youtube.com/embed/[ID_VIDEO_YOUTUBE]" title="Project Demo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="col-lg-4" data-aos="fade-left" data-aos-delay="200">
+                    <div class="sticky-top" style="top: 100px;">
+                        
+                        <div class="card info-card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title mb-3">Project Info</h5>
+                                <ul class="list-unstyled info-list">
+                                    <li>
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <strong>Periodo:</strong> Gen 2024 - Mar 2024
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-user"></i>
+                                        <strong>Ruolo:</strong> Full Stack Developer
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-briefcase"></i>
+                                        <strong>Cliente:</strong> Progetto Personale
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card info-card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title mb-3">Tecnologie Usate</h5>
+                                <div class="tech-badge-container">
+                                    <span class="badge tech-badge">React</span>
+                                    <span class="badge tech-badge">Node.js</span>
+                                    <span class="badge tech-badge">Express</span>
+                                    <span class="badge tech-badge">MongoDB</span>
+                                    <span class="badge tech-badge">Stripe API</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card info-card">
+                            <div class="card-body d-grid gap-2">
+                                <a href="[Link Demo Live]" class="btn btn-primary" target="_blank">
+                                    <i class="fas fa-globe me-2"></i> Live Demo
+                                </a>
+                                <a href="[Link GitHub]" class="btn btn-secondary" target="_blank">
+                                    <i class="fab fa-github me-2"></i> Vedi Codice
+                                </a>
+                                <a href="[Link Download]" class="btn btn-outline-primary" download>
+                                    <i class="fas fa-file-download me-2"></i> Download Specs
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-main py-5">
+        <div class="container">
+             <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="footer-brand">Giuseppe Cozza</h5>
+                    <p class="text-body-secondary">Sviluppatore Web & Software Engineer</p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="footer-heading">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="index.html#education">Education</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-heading">Contatti</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="mailto:[tua@email.com]">tua@email.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 text-lg-end">
+                    <h5 class="footer-heading">Social</h5>
+                    <div class="social-icons mt-3">
+                        <a href="[Link tuo GitHub]" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="[Link tuo LinkedIn]" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="text-center text-body-secondary small">
+                © 2024 Giuseppe Cozza. Tutti i diritti riservati.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
